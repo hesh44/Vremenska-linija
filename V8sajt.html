@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+  <title>Vremenska linija univerzuma</title>
+  <link rel="stylesheet" href="css/timeline.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css"
+    integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <div class="imgPrva">
+    <div class="text">      
+      <!-- div je u blokovima tj razvuce od ivice do ivice ekrana-->
+      <span class="border trans">
+        <!--span od slova do slova-->
+        Vremenska linija univerzuma
+      </span>
+    </div>
+  </div>
+  <section class="section1">
+  </section>
+
+  <div class="img1">
+    <div class="text">
+      <span class="border trans">
+        13 700 000 000 p.n.e.
+      </span>
+    </div>
+  </div>
+  <section class="section">
+    <h2> Veliki prasak</h2>
+    <p>
+      Prema teoriji o Velikom prasku, negde pre oko 13,7 milijardi godina,
+      došlo je do nastanka univerzuma kakav danas poznajemo. Do tada beskonačno mali proctor, nakon praska, počeo je
+      neprestano da se širi, što je za posledicu imalo formiranje opšte prihvaćenih fizičkih zakona.
+    </p>
+  </section>
+
+  <div class="img2m">
+    <div class="text">
+      <span class="border trans">
+        13 699 620 000 p.n.e.
+      </span>
+    </div>
+  </div>
+  <section class="section">
+    <h2>Atom</h2>
+    <p>
+      Kako se univerzum postepeno hladio, kombinacijom ohlađenih elektrona vodonika i jezgra helijuma, dobijamo atom
+      (neutral atom). Atom predstavlja najmanju jedinicu materije koja definiše hemijske elemente. Veličina jednog atoma
+      meri se u pikometrima, bilionitim delovima metra.
+    </p>
+    
+  </section>
+
+  <div class="img3m">
+    <div class="text">
+      <span class="border trans">
+        13 600 000 000 p.n.e.
+      </span>
+    </div>
+  </div>
+  <section class="section">
+    <h2>Mlečni put</h2>
+    <p id="dani1">
+      Mlečni put poznat je kao spiralna galaksija u kojoj se nalazi naš solarni sistem. Procenjuje se da sadrži izmedju
+      100 i 400 milijardi zvezda i preko 100 milijardi planeta. Naziv mlečni put potiče iz izgleda galaksije gledano sa
+      Zemlje (lat. via lactea).
+    </p>
+    <div class="graf1" >
+      <canvas id="dani" height="300" width="800"></canvas>
+
+    </div>
+  </section>
+
+  <div class="img4m">
+    <div class="text">
+      <span class="border trans">
+        4 600 000 000 p.n.e.
+      </span>
+    </div>
+  </div>
+  <section class="section">
+    <h2>Sunce</h2>
+    <p>
+      Sunce je zasigurno nama najbliža i najbolje proučena zvezda. Oko njega kruži 8 planeta sa svojim satelitima, 5
+      patuljastih planeta, asteroid, komete, meteori kao i čestice kosmičke prašine, tako da Sunce predstavlja središnju
+      zvezdu Sunčevog sistema. Prečnik Sunca veći je čak 109 puta od prečnika Zemlje.
+    </p>
+  </section>
+
+  <div class="img5m">
+    <div class="text">
+      <span class="border trans">
+        4 500 000 000 p.n.e.
+      </span>
+    </div>
+  </div>
+  <section class="section">
+    <h2>Zemlja</h2>
+    <p id="zemlja1">
+      Zemlja predstavlja treću planetu po udaljenosti od Sunca i jedinu poznatu planetu u svemiru na kojoj postoji
+      život. Zemlja se okrene oko Sunca jednom u 365,26 dana i ovaj period poznat je kao Zemljina godina. Tokom ovog
+      perioda dolazi i do okretanja oko sopstvene ose, oko 366,26 puta, što predstavlja broj solarnih dana. Jedini
+      prirodni satelit Zemlje je Mesec.
+    </p>
+
+    <div class="graf1" >
+      <canvas id="planete"></canvas>
+
+    </div>
+  </section>
+
+  <div class="img6m">
+    <div class="text">
+      <span class="border trans">
+        3 500 000 000 p.n.e.
+      </span>
+    </div>
+  </div>
+  <section class="section">
+    <h2>Prvi život na Zemlji</h2>
+    <p>
+      Pre 3,5 milijardi godina kopno nije bilo podeljeno na kontinente, a praokeani bili su vrući. U dubinama okeana,
+      jednostavne organske materije su se pod uticajem toplotne energije udruživale u sve složenija jedinjenja. Vremenom
+      su se pojavili molekuli sa osobinom samorazmnožavanja, što je predstavljalo preduslov za postojanje života.
+    </p>
+  </section>
+
+  <div class="img7m">
+    <div class="text">
+      <span class="border trans">
+        480 000 000 p.n.e.
+      </span>
+    </div>
+  </div>
+  <section class="section">
+    <h2>Insekti</h2>
+    <p>
+      Insekti su ubedljivo najbrojnija klasa životinja, sačinjena od preko 800 000 različitih opisanih vrsta.
+      Jednostavne su građe, iz 3 dela, glave, grudi i trbuha. Insekti igraju veliku ulogu u prirodi, kako zbog
+      održavanja balansiranog lanca ishrane, tako i zbog oprašivanja biljaka. Specifični su po preobražavanju, poznatom
+      kao metamorfoza
+    </p>
+  </section>
+
+  <div class="img8m">
+    <div class="text">
+      <span class="border trans">
+        450 000 000 p.n.e.
+      </span>
+    </div>
+  </div>
+  <section class="section">
+    <h2>Ribe</h2>
+    <p id="ribe1">
+      Ribe predstavljaju vodene kičmenjake koji žive gotovo isključivo u vodi. Postoji preko 33 100 vrsta riba, što ih
+      čini najvećom grupom kičmenjaka. Najstariji fosil ribe star je preko 450 miliona godina i smatra se pretečom prvih
+      organizama koji izlaze na kopno.
+    </p>
+    <div class="graf1" >
+      <canvas id="ribe"></canvas>
+
+    </div>
+  </section>
+
+  <div class="img9m">
+    <div class="text">
+      <span class="border trans">
+        312 000 000 p.n.e.
+      </span>
+    </div>
+  </div>
+  <section class="section">
+    <h2>Reptili</h2>
+    <p>
+      Reptili (gmizavci) su odigrali veoma značajnu ulogu u istoriji razvoja životinjskog sveta, jer predstavljaju prvu
+      grupu kičmenjaka koja je u potpunosti izašla na kopno. U klasu reptile ubrajaju se kornjače, krokodili, zmije,
+      vodeni gušteri, gušteri, kao I njihovi izumrli srodnici.
+    </p>
+  </section>
+
+  <div class="img10m">
+    <div class="text">
+      <span class="border trans">
+        280 000 000 p.n.e.
+      </span>
+    </div>
+  </div>
+  <section class="section">
+    <h2>Sisari</h2>
+    <p>
+      Ova grupa životinja takođe se ubraja u klasu kičmenjaka, karakterističnu po razvoju dlaka i sposobnosti ženki da
+      proizvode mleko. Procenjeno je da postoji oko 5500 savremenih vrsta sisara. Možemo ih podeliti u 3 poznate grupe –
+      torbari, kljunari i placentalni sisari.
+    </p>
+  </section>
+
+  <div class="img11m">
+    <div class="text">
+      <span class="border trans">
+        250 000 000 p.n.e.
+      </span>
+    </div>
+  </div>
+  <section class="section">
+    <h2>Dinosaurusi</h2>
+    <p>
+      Dinosaurusi se smatraju naslednicima gmizavaca i najkompleksnijom grupom kičmenjaka ukoliko se izuzmu ribe.
+      Naseljivali su planetu Zemlju periodu koji nazivamo mezozoik. Mogu se podeliti u dve kategorije u zavisnosti da li
+      se kreću isključivo po kopnu ili lete.
+    </p>
+  </section>
+
+  <div class="img12m">
+    <div class="text">
+      <span class="border trans">
+        65 000 000 p.n.e.
+      </span>
+    </div>
+  </div>
+  <section class="section">
+    <h2>Nestanak dinosaurusa</h2>
+    <p>
+      Nestanak dinosaurusa kao i 65% tadašnjeg živog sveta dovodi se u vezu sa padom ogromnog asteroida na poluostrvo
+      Jukatan, u Meksiku. Posledica ovakvog udarca bila je dizanje ogromnog oblaka prašine, što je dovelo do manjka
+      svetlosti na Zemlji. Samim time biljke su venule, a potrebne hrane je bilo sve manje i manje, rezultirajući
+      nestankom dinosaurusa.
+    </p>
+  </section>
+
+  <div class="img17">
+    <div class="text">
+      <span class="border trans">
+        6 000 000 p.n.e
+      </span>
+    </div>
+  </div>
+  <section class="section">
+    <h2>Poslednji zajednički predak ljudi i majmuna</h2>
+    <p>
+      Poslednji zajednički predak šimpanze i čoveka (akronim CHLCA ili C/H LCA, od engleskog chimpanzee–human last
+      common ancestor) je poslednja vrsta čije karakteristike dele dele čovek, bonobo (patuljasta šimpanza) i šimpanza.
+    </p>
+  </section>
+
+  <div class="img16">
+    <div class="text">
+      <span class="border trans">
+        1 900 000 p.n.e.
+      </span>
+    </div>
+  </div>
+  <section class="section">
+    <h2>Vatra</h2>
+    <p>
+      Otkriće vatre, tj. kontrola i upravljanje tim resursom, praljudima je bila prekretnica u sociokulturnoj i
+      sveopštoj evoluciji jer je vatra omogućila kuvanje hrane, grejanje i zaštitu od elementarnih nepogoda.
+      "Pripitomljavanje" vatre takođe je omogućilo proširenje ljudske aktivnosti u mraku i u hladnijim noćnim satima, a
+      pružalo i zaštitu od predatora i insekata.
+    </p>
+  </section>
+
+  <div class="img15">
+    <div class="text">
+      <span class="border trans">
+        200 000 p.n.e.
+      </span>
+    </div>
+  </div>
+  <section class="section">
+    <h2>Homo sapiens sapiens</h2>
+    <p>
+      Nastao je Homo sapiens – razumni čovek, odnosno ljudska vrsta. Homo je rod porodice Hominidi, koji pored današnjeg
+      čoveka uključuje i neandertalce i mnoge druge izumrle pripadnike porodice Hominidi, a Homo sapiens je jedina
+      preživela vrsta roda Homo.
+    </p>
+  </section>
+
+  <div class="img14">
+    <div class="text">
+      <span class="border trans">
+        3400. p.n.e.
+      </span>
+    </div>
+  </div>
+  <section class="section">
+    <h2>Prvo pismo</h2>
+    <p>
+      U Mesopotamiji, Sumeri su oko 3400. p. n. e. verovatno stvorili najstarije pismo. U početku su to bili logogrami,
+      znakovi koji predstavljaju pojedinu reč, a zatim glasove ili glasovne grupe. Tako je oko 2500. p. n. e. klinasto
+      pismo postalo mešavina pojmovnog i slogovnog pisma. Klinovi su nastali utiskivanjem štapića u svežu glinu.
+    </p>
+  </section>
+
+  <div class="img13">
+    <div class="text">
+      <span class="border trans">
+        2700. p.n.e.
+      </span>
+    </div>
+  </div>
+  <section class="section">
+    <h2>Piramide</h2>
+    <p>
+      Egipatske piramide, od kojih su neke među najvećim građevinama koje je ljudska ruka ikad izgradila, čine jedan od
+      najmoćnijih i najdugovečnijih simbola staroegipatske civilizacije. Većina arheologa saglasna je da su one
+      sagrađene kao nadgrobni spomenici povezani sa kraljevskim kultovima sunca i meseca.
+    </p>
+  </section>
+
+  <div class="img12">
+    <div class="text">
+      <span class="border trans">
+        0. Anno Domini
+      </span>
+    </div>
+  </div>
+  <section class="section">
+    <h2>Nova era</h2>
+    <p>
+      Anno Domini (prevod sa latinskog: „leta Gospodnjeg”), skraćeno AD ili A.D., oznaka je pod kojem su se brojale ili
+      se još broje godine u julijanskom i gregorijanskim kalendaru. Kalendarska era koja se broji počiva na
+      tradicionalno izračunatoj godini Isusovog začeća i rođenja, a oznaka pre Hrista (pre nove ere) označava godine pre
+      Hristovog rođenja.
+    </p>
+  </section>
+
+  <div class="img11">
+    <div class="text">
+      <span class="border trans">
+        476.
+      </span>
+    </div>
+  </div>
+  <section class="section">
+    <h2>Propast Zapadnog rimskog carstva</h2>
+    <p id="pgr">
+      Rimsko carstvo je upravljalo svim helenističkim državama na Sredozemlju, delovima bliskog istoka, severnom obalom
+      Afrike kao i keltskim područjima severne Evrope, celim Balkanskim poluostrvom i delovima centralne Evrope.
+      Poslednji zapadnorimski car zbačen je 476. godine, međutim, carstvo se održalo na istoku, sa sedištem u
+      Konstantinopolju.
+    </p>
+    <div class="graf1" >
+      <canvas id="gradovi"></canvas>
+    </div>
+  </section>
+
+  <div class="img10">
+    <div class="text">
+      <span class="border trans">
+        622.
+      </span>
+    </div>
+  </div>
+  <section class="sectionRE">
+    <h2>Hidžra</h2>
+    <p id="pre">
+      Hidžra predstavlja prelazak Muhameda iz Meke u Jatrib, oazu udaljenu oko 350 km severno od Meke, koja se od tada
+      naziva Medina - prorokov grad 622. godine, koja je u islamskom svetu prihvaćena kao početak nove (muslimanske)
+      ere, od kada muslimani počinju da računaju vreme.
+    </p>
+    <div class="graf1" >
+      <canvas id="religije"></canvas>
+    </div>
+  </section>
+
+  <div class="img9">
+    <div class="text">
+      <span class="border trans">
+        800.
+      </span>
+    </div>
+  </div>
+  <section class="section">
+    <h2>Krunisanje Karla Velikog</h2>
+    <p>
+      Karlo Veliki je bio franački kralj od 768, kralj Italije od 774, a od 800. prvi car Franačkog carstva i prvi car u
+      zapadnoj Evropi nakon propasti Zapadnog rimskog carstva tri veka ranije. Nakon njegove smrti 814. godine Karlovo
+      carstvo postepeno gubi svoju moć i teritorije, da bi 839. prestalo da postoji.
+    </p>
+  </section>
+
+  <div class="img8">
+    <div class="text">
+      <span class="border trans">
+        1054.
+      </span>
+    </div>
+  </div>
+  <section class="section">
+    <h2>Veliki crkveni raskol</h2>
+    <p id="phr">
+      Ovo je bio najveći raskol u istoriji hrišćanstva, koji je otpočeo prekidom liturgijske zajednice katoličkog zapada
+      i pravoslavnog istoka, nakon niza prethodnih sporova i sukoba. Usled raskola, došlo je do trajnog odvajanja
+      Rimokatoličke i Pravoslavne crkve i obe strane su nastavile da polažu pravo na nasleđe jedinstvene Crkve.
+    </p>
+    <div class="graf1" >
+      <canvas id="hriscanstvo"></canvas>
+    </div>
+  </section>
+
+  <div class="img7">
+    <div class="text">
+      <span class="border trans">
+        1291.
+      </span>
+    </div>
+  </div>
+  <section class="section">
+    <h2>Kraj krstaških ratova</h2>
+    <p>
+      Krstaški ratovi predstavljaju skup svetih ratova u kojima su učestvovali vitezovi iz Francuske i Svetog rimskog
+      carstva sa ciljem da oslobode Jerusalim i Svetu zemlje od muslimana, a istočnu Evropu od pagana i jeretika. Nakon
+      196 godina i 9 krstaških ratova, ovo je bio jedan od najvećih i nasmrtonosnijih sukoba u ljudskoj istoriji, sa
+      dubokim političkim, ekonomskim i socijalnim efektima.
+    </p>
+  </section>
+
+  <div class="img6">
+    <div class="text">
+      <span class="border trans">
+        1347.
+      </span>
+    </div>
+  </div>
+  <section class="sectionCS">
+    <h2>Crna smrt</h2>
+    <p id="pcs">
+      Pandemija zvana Crna smrt je harala Evropom u srednjem veku, odnevši živote 75-200 miliona ljudi, odnosno trećinu
+      tadašnje evropske populacije u periodu od 5 godina. Većina naučnika smatra da je Crna smrt bila pandemija kuge,
+      dok neki smatraju da je bio virus sličan eboli.
+    </p>
+    <div class="graf1" >
+      <canvas id="smrt" ></canvas>
+    </div>
+  </section>
+
+  <div class="img5">
+    <div class="text">
+      <span class="border trans">
+        1453.
+      </span>
+    </div>
+  </div>
+
+  <section class="section">
+    <h2>Pad Carigrada</h2>
+    <p id="ps">
+      Ovaj istorijski događaj osmanskog osvajanja Carigrada označio je pad Vizantijskog carstva, iako su se neke zemlje
+      još nekoliko godina. Pad Carigrada imao je dalekosežne posledice, jer su se Osmanlije konačno utvrdile na Balkanu
+      i više ih ništa nije moglo sprečiti u njihovom pohodu na Evropu, pa se pad Carigrada često smatra događajem koji
+      je označio kraj srednjeg veka.
+    </p>
+    <div class="graf1" >
+      <canvas id="crnaSmrt" height="400" width="800"></canvas>
+    </div>
+  </section>
+
+
+
+
+
+  <div class="img1j">
+    <div class="text">
+      <span class="border trans">
+        1492.
+      </span>
+    </div>
+  </div>
+  <section class="section">
+    <h2>Otkriće američkog kontinenta</h2>
+    <p>
+      Nakon dvomesečnog putovanja, Kristofer Kolumbo je sa svojom posadom od 90 ljudi je zakoračio na tlo San Salvadora
+      i
+      tako otkrio postojanje Američkog kontinenta ostatku sveta. U Španiji je Kolumbo doživeo pravi trijumf, tvrdeći da
+      je otkrio Indiju, te se u Evropi odomaćio izraz Indijanci za stanovnike Američkog kontinenta. Kolumbo je preduzeo
+      još tri putovanja. Pri tome je naišao na Jamajku, a zatim i na obale Srednje Amerike.
+    </p>
+  </section>
+  <div class="img2j">
+    <div class="text">
+      <span class="border trans">
+        1665.
+      </span>
+    </div>
+  </div>
+  <section class="section">
+    <h2>Otkriće ćelije</h2>
+    <p>
+      Robert Huk, engleski fizičar i sekretar Kraljevskog društva u Londonu, koristeći mikroskop od kože i zlata,
+      otkriva ćeliju, osnovnu gradivnu jedinicu svih živih bića. Izraz je prvi put upotrebljen u Hukovom radu
+      Mikrografika (Micrographica, sitno crtanje), u kome je opisao svoja mikroskopska i teleskopska posmatranja,
+      objasnio proces sagorevanja, kristalnu strukturu pahuljica i dao studiju o fosilima.
+      
+    </p>
+  </section>
+  <div class="img3j">
+    <div class="text">
+      <span class="border trans">
+        1687.
+      </span>
+    </div>
+  </div>
+  <section class="section" id="njutnSection">
+    <h2>Otkriće gravitacije</h2>
+    <p id="pNjutn">
+      Isaku Njutnu pada jabuka na glavu, što dovodi do njegovog bližeg shvatanja pojma gravitacije. Svojim otkrićima u
+      oblastima optike, kretanja i matematike, postavio je temelje moderne fizike. Svoja istraživanja je započeo po
+      ugledu na Kopernika, Keplera, Galilea, Dekarta, i mnoge druge poznate naučnike.
+
+    </p>
+    <div class="graf1" >
+      <canvas id="studiranje" height="400" width="800"></canvas>
+    </div>
+  </section>
+  <div class="img4j">
+    <div class="text">
+      <span class="border trans">
+        1776.
+      </span>
+    </div>
+  </div>
+  <section class="section">
+    <h2>Parna mašina</h2>
+    <p>
+      Početak perioda industrijske revolucije koji počinje izumom Džejmsa Vata, parnom mašinom. Ovo otkriće omogućilo
+      ubrzan napredak ljudske vrste. Zemljoradnici su prešli u fabrike, a prenos znanja je izuzetno olakšan. U početku
+      su mašine naručivali samo vlasnici rudnika, a ubrzo se posao proširio i na fabrike papira, brašna, pamuka i
+      gvožđa, na destilerije i gradski vodovod.
+    </p>
+  </section>
+
+  <div class="img5j">
+    <div class="text">
+      <span class="border trans">
+        1880.
+      </span>
+    </div>
+  </div>
+  <section class="section">
+    <h2>Prvi automobil</h2>
+    <p>
+      Karl Benz konstruiše prvi automobil koji je radio pomoću motora sa unutrašnjim sagorevanjem i postao preteča danas
+      najkorišćenijeg prevoznog sredstva. To mu je pošlo za rukom tek kada je patentirao karburator, neizostavni deo
+      benzinskih motora u kojem se mešaju vazduh, varnice i gorivo čime dolazi do oslobađanja energije.
+    </p>
+  </section>
+
+  <div class="img6j">
+    <div class="text">
+      <span class="border trans">
+        1903.
+      </span>
+    </div>
+  </div>
+  <section class="section">
+    <h2>Najstarija osoba na svetu</h2>
+    <p>
+      Godina rođenja Kane Tanake, najstarija osoba na svetu koja dolazi iz Japana. Kane se izborila sa kancerom debelog
+      creva, ali ipak idalje svakodveno uživa u gaziranim pićima koji su joj najveći porok. Slobodno vreme provodi
+      igrajući društvenu igru Othello. Zanimljivo je da je dan njenog
+      rođenja bliži Prvom srpskom ustanku nego sadašnjosti.
+    </p>
+  </section>
+  <div class="img7j">
+    <div class="text">
+      <span class="border trans">
+        1939.
+      </span>
+    </div>
+  </div>
+  <section class="section" >
+    <h2>Drugi svetski rat</h2>
+
+
+
+    <!-- umesto <p>     ide <p id ="pWW2"> -->
+    <!-- umesto <p>     ide <p id ="pWW2"> -->
+    <!-- umesto <p>     ide <p id ="pWW2"> -->
+    <!-- umesto <p>     ide <p id ="pWW2"> -->
+    <!-- umesto <p>     ide <p id ="pWW2"> -->      
+    <p id="pWW2">
+      Drugi svetski rat trajao je od 1. septembra 1939. do 2. septembra 1945. godine. Ratovala su dva suprotstavljena
+      vojna saveza: sile Osovine, predvođene Nemačkom, i Saveznici, predvođeni Sovjetskim Savezom, V. Britanijom i
+      Amerikom. Po broju država i ljudi koji su učestvovali, ljudskih žrtava i stepenu materijalnog razaranja, taj rat
+      predstavlja najveći oružani sukob u istoriji čovečanstva. Rat su obeležile masovne smrti civila, uključujući i
+      holokaust, kao i jedini slučaj upotrebe nuklearnog oružja. U ratu je učestvovalo oko 110 miliona vojnika iz 61
+      zemlje. U njemu je poginulo oko 60 miliona ljudi, a više od 35 miliona ih je ranjeno.
+    </p>
+    <div class="graf1" >
+      <canvas id="brojUmrlih" height="500" width="800"></canvas>
+
+    </div>
+  </section>
+  <div class="img8j">
+    <div class="text">
+      <span class="border trans">
+        1969.
+      </span>
+    </div>
+  </div>
+  <section class="section">
+    <h2>Sletanje na mesec</h2>
+    <p>
+      Nil Armstrong, Majkl Kolins i Edvin Oldrin sa letelicom Apolo 11 sleću na zemljin prirodni satelit. Nil je postao
+      prvi i jedini čovek koji je ikada hodao Mesecom. Taj čin je trajao “svega” 21 minut. Prva rečenica koju je Nil
+      Armstrong izgovorio na površini Meseca glasila je: „Ovo je mali korak za čoveka, ali veliki za čovečanstvo“.
+    </p>
+  </section>
+  <div class="img9j">
+    <div class="text">
+      <span class="border trans">
+        1990.
+      </span>
+    </div>
+  </div>
+  <section class="section">
+    <h2>Internet</h2>
+    <p>
+      Tim Berners Li stvara World Wide Web, mrežu povezanih podataka kojima se može pristupiti bilo gde u svetu. Kasnije
+      će se ispostaviti da je ovaj trenutak veoma uticao na razvoj i živote nekoliko predstojećih generacija. Danas,
+      internet povezuje milijarde računara širom sveta na jedan nehijerarhijski način. Internet je proizvod spoja
+      medija, računara i telekomunikacija.
+    </p>
+  </section>
+  <div class="img10j">
+    <div class="text">
+      <span class="border trans">
+        2001.
+      </span>
+    </div>
+  </div>
+  <section class="section">
+    <h2>9/11</h2>
+    <p>
+      Napadi 11. septembra 2001. bili su serija koordinisanih terorističkih napada protiv SAD. U službi Al Kaide, mreže
+      militantnih vahabijskih organizacija, je bilo 19 osoba koje su otele 4 američka aviona. Dva su udarila u Svetski
+      trgovinski centar na Menhetnu, po jedan u svaki soliter u 17 minuta razlike, ubrzo nakon čega su se oba solitera
+      srušila. Treći avion je udario u Pentagon, glavno sedište Ministarstva odbrane SAD u Vašingtonu. Četvrti avion se
+      srušio u ruralnom delu Pensilvanije nakon što su putnici pružili otpor otmičarima. Ovaj događaj je umnogome uticao
+      na početak Avganistanskog rata, američku
+      invaziju Iraka, pa i na Sirijski građanski rat koji traje i danas.
+    </p>
+  </section>
+  <div class="img11j">
+    <div class="text">
+      <span class="border trans">
+        2004.
+      </span>
+    </div>
+  </div>
+  <section class="section">
+    <h2>Facebook</h2>
+    <p id="pFb">
+      Facebook je vebsajt koji služi kao servis za društvenu mrežu. Počeo je sa radom 4. februara 2004. godine.
+      Fejsbuk je stvorio Mark Zakerberg dok je bio student na Univerzitetu Harvard.
+
+      Prvobitno, članstvo na ovom sajtu bilo je dozvoljeno samo studentima sa Harvarda, da bi se kasnije proširilo na
+      studente sa svih koledža koji su članovi Ajvi lige.
+
+      Posle nekog vremena, članstvo je omogućeno svim studentima i srednjoškolcima, a na kraju je omogućeno svim osobama
+      koje imaju 13 ili više godina. Nekoliko Zakerbergovih bivših kolega studenata je podnelo tužbe protiv Fejsbuka,
+      tvrdeći da su im izvorni kod i druga intelektualna svojina ukradeni.
+     
+
+    </p>
+    <div class="graf1" >
+      <canvas id="fb" height="550"></canvas>
+    </div>
+  </section>
+  <div class="img12j">
+    <div class="text">
+      <span class="border trans">
+        2008.
+      </span>
+    </div>
+  </div>
+  <section class="section">
+    <h2>Svetska ekonomska kriza</h2>
+    <p id="pKriza">
+      Svetska ekonomska kriza ili velika recesija je period velikog ekonomskog pada koji je počeo krajem prve decenije
+      21. veka. Tačan obim, vremenski okvir i da li se završila su stvar sporenja i zavisi od zemlje do zemlje. Što se
+      tiče obima, MMF je zaključio da je u pitanju najgora globalna recesija još od kraja Drugog svetskog rata.
+
+      Da bi se shvatio sam obim krize i njene posledice dovoljno je pogledati stope ekonomskog rasta Srbije, koja je u
+      godinama pred krizu imala stope rasta od 5%, 6%, pa čak i 7%, da bi u 2015. taj rast iznosio samo 0,7 %.
+
+      Takođe treba imati u vidu da se kriza nije osetila svugde isto. U Severnoj Americi i Evropi je došlo do ekonomskog
+      pada (recesije) dok su npr. Kina i Indija i dalje beležile značajne stope rasta tokom krize.
+    </p>
+    <div class="graf1" >
+      <canvas id="kriza" height="600" width="800"></canvas>
+    </div>
+  </section>
+  <div class="img13j">
+    <div class="text">
+      <span class="border trans">
+        2018.
+      </span>
+    </div>
+  </div>
+  <section class="section" id="poslednjiSection">
+    <h2>Sadašnjost</h2>
+    <p id="pPopulacija">
+      Čovek iz Kolorada je preživeo napad medveda i ajkule za manje od godinu dana. Iste godine, gradskoj biblioteci San
+      Franciska je vraćena knjiga posle 47 godina. Takođe, jedna žena je uhapšena pošto je poslala 65 000 poruka svom
+      bivšem partneru.
+    </p>
+    <div class="graf1" >
+      <canvas id="populacija" ></canvas>
+    </div>
+  </section>
+  
+
+
+
+
+
+
+  <script src="js/timeline.js"></script>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"
+    integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

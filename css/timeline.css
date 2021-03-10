@@ -1,0 +1,353 @@
+body, html{
+    height:100%;
+    margin: 0;    
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight:400;
+    line-height: 1.8em;
+    color: rgb(75, 75, 75);
+}
+
+.imgPrva, .img1, .img2, .img3, .img4, .img5,.img6, .img7, .img8, .img9, .img10, .img11, .img12, .img13, .img14, .img15, .img16, .img17,
+.img1m, .img2m, .img3m, .img4m, .img5m, .img6m, .img7m, .img8m, .img9m, .img10m, .img11m, .img12m,
+.img1j, .img2j, .img3j, .img4j, .img5j, .img6j, .img7j, .img8j, .img9j, .img10j, .img11j, .img12j, .img13j {
+    position: relative;
+    opacity: 1;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    /* fixed = parallax
+    scroll = normalno */
+    background-attachment: fixed; 
+    min-height: 400px;
+    max-height: 1000px;
+}
+
+.section{
+    text-align: left;
+    padding: 40px 50px ;
+    background-color: #f4f4f4;
+    color: #666;
+    position: relative;
+}
+.section1{
+    height: 50px;
+}
+#poslednjiSection{
+    height: 520px;
+}
+#njutnSection{
+    height: 450px;
+}
+.sectionCS{
+    text-align: left;
+    padding: 40px 50px ;
+    background-color: #f4f4f4;
+    color: #666;
+    position: relative;
+    height: 410px;
+}
+.sectionRE{
+    text-align: left;
+    padding: 40px 50px ;
+    background-color: #f4f4f4;
+    color: #666;
+    position: relative;
+    height: 410px;
+}
+.text{
+    position:absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.text .border{
+    background-color: hsla(0, 0%, 7%, 0.75);
+    color: #fff;
+    padding: 20px;   
+} 
+
+.graf1{
+    position: absolute;
+    margin: auto;
+    right: 0;
+    top: 0;
+}
+
+
+
+/*          ako tekst zelite da gurate u levo => idite u html i kod tok teksta mu dajte id neki unikatan <p id="p1">            */
+/*          kad dodate ovde ispod nastavite da dodajete #pWW2, #pBlaBla, ...       */
+
+
+
+#pWW2, #zemlja1, #dani1, #ribe1, #pcs, #ps, #pre, #phr, #pgr, #pKriza, #pFb, #pNjutn
+{
+    width: 40%;
+}
+#pPopulacija{
+    width: 30%;
+}
+
+.img1{
+    background-image: url('../img/bigbang.jpg');
+    min-height: 100%;
+}
+.img2{
+    background-image: url('../img/atom.jpg');
+    opacity: 0.85; 
+}
+.img3{
+    background-image: url('../img/galaxy.jpg');
+}
+.img4{
+    background-image: url('../img/solarsystem.jpg');
+}
+.img5{
+    background-image: url('../img/carigrad.jpg');
+}
+.img6{
+    background-image: url('../img/crnasmrt.jpg');
+    background-size: cover;
+}
+.img7{
+    background-image: url('../img/krstasi.jpg');
+}
+.img8{
+    background-image: url('../img/raskol.jpg');
+}
+.img9{
+    background-image: url('../img/karlo.jpg');
+}
+.img10{
+    background-image: url('../img/hidzra.jpg');
+}
+.img11{
+    background-image: url('../img/rimskocarstvo.png');
+}
+.img12{
+    background-image: url('../img/annodomini.jpg');
+}
+.img13{
+    background-image: url('../img/piramide.jpg');
+}
+.img14{
+    background-image: url('../img/pismo.jpg');
+    background-size: cover;
+}
+.img15{
+    background-image: url('../img/homosapiens.png');
+}
+.img16{
+    background-image: url('../img/vatra.jpg');
+}
+.img17{
+    background-image: url('../img/predak.jpg');
+}
+
+
+
+
+.img1m{
+    background-image: url('../img/velikiprasak.jpg');
+}
+.img2m{
+    background-image: url('../img/atom.jpg');
+}
+.img3m{
+    background-image: url('../img/mlecniput.jpg');
+}
+.img4m{
+    background-image: url('../img/sunce.jpg');
+    background-size: 117%;
+}
+.img5m{
+    background-image: url('../img/zemlja.png');
+}
+.img6m{
+    background-image: url('../img/prvizivot.jpg');
+}
+.img7m{
+    background-image: url('../img/insekti.jpg');
+}
+.img8m{
+    background-image: url('../img/ribe.jpg');
+}
+.img9m{
+    background-image: url('../img/reptili.jpg');
+}
+.img10m{
+    background-image: url('../img/sisari.jpg');
+}
+.img11m{
+    background-image: url('../img/dinosaurusi.jpg');
+}
+.img12m{
+    background-image: url('../img/nestanakdinosaurusa.jpg');
+}
+
+
+
+
+
+.img1j{
+    background-image: url('../img/kolumbo.jpg');
+}
+.img2j{
+    background-image: url('../img/celija.jpg');
+    background-size: contain;
+}
+.img3j{
+    background-image: url('../img/njutn.jpg');
+}
+.img4j{
+    background-image: url('../img/parnamasina.jpg');
+    background-size: contain;
+}
+.img5j{
+    background-image: url('../img/auto.png');
+    background-size: contain;
+
+}
+.img6j{
+    background-image: url('../img/kane.jpg');
+}
+.img7j{
+    background-image: url('../img/ww2.jpg');
+
+}
+.img8j{
+    background-image: url('../img/mesec.jpg');
+}
+.img9j{
+    background-image: url('../img/internet.jpg');
+}
+.img10j{
+    background-image: url('../img/911.jpg');
+}
+.img11j{
+    background-image: url('../img/fb.jpg');
+}
+.img12j{
+    background-image: url('../img/kriya.jpg');
+}
+.img13j{
+    background-image: url('../img/sadasnjost.jpg');
+}
+
+
+.imgPrva{
+    background-image: url('../img/pocetna.jpg');
+    min-height: 100%;
+}
+
+
+
+
+#planete{
+    position: relative;
+    right: 50px;
+    top: 20px;
+    height: 500px;
+    width: 800px;
+}
+
+
+#dani{
+    position: relative;
+    right: 50px;
+    top: 20px;
+}
+#ribe{
+    position: relative;
+    right: 150px;
+    top: 30px;
+    height: 300px;
+    width: 600px;  
+}
+
+#crnaSmrt{
+    position: relative;
+    right: 50px;
+    top: 20px;
+    height: 400px;
+    width: 600px;
+}
+
+#smrt{
+    position: relative;
+    right: 20px;
+    top: 20px;
+    height: 150px;
+    width: 750px;
+}
+
+#hriscanstvo{
+    position: relative;
+    right: 20px;
+    top: 0px;
+    height: 400px;
+    width: 800px;
+}
+
+#religije{
+    position: relative;
+    right: 20px;
+    top: 0px;
+    height: 400px;
+    width: 800px;
+}
+
+#gradovi{
+    position: relative;
+    right: -50px;
+    top: 0px;
+    height: 400px;
+    width: 800px;
+}
+
+
+
+
+
+
+
+
+/* JANKOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO */
+
+
+#kriza{
+    position: relative;
+    right: 50px;
+    top: 50px;
+}
+#populacija{
+    position: relative;
+    right: 50px;
+    top: 30px;
+    height: 600px;
+    width: 900px;
+}
+#fb{
+    position: relative;
+    right: 20px;
+    top: 50px;    
+    width: 800px;
+}
+#studiranje{
+    position: relative;
+    right: 40px;
+    top: 20px;
+}
+#brojUmrlih{
+    position: relative;
+    right: 30px;
+    top: 50px;    
+    width: 800px;
+    height: 800px;
+}
